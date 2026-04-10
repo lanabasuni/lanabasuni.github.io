@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Course Organizer</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <header>
+        <h1>Course Organizer</h1>
+    </header>
+    <div class="navbar">
+     <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="courses.html" >My courses</a></li>
+            <li><a href="add-course.html" class="active">Add Course</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+        </ul>   
+    </div>
+    <body>
+        <div class="container">
+         <h3>Add courses</h3>
+         <p>Here you can add new courses to your list.</p>
+         <div class="add-courses">
+            <div class="add-course-form">
+                <form>
+                    <label for="course-name">Course Name:</label>  <br><br>
+                    <select>
+                    <option value="">-Select Course Name-</option>
+                        <option value="course1">Introduction to Computer Science</option>
+                        <option value="course2">Data Structures and Algorithms</option>
+                        <option value="course3">Database Systems</option>
+                        <option value="course4">Web Development</option>
+                        <option value="course5">Software Engineering</option>
+                    </select>
+                    <br><br>
+                    <label for="course-dr">Course DR:</label>  <br><br>
+                   <select>
+                    <option value="dr1">-Select Course DR-</option>
+                        <option value="dr1">Ahmed</option>
+                        <option value="dr2">Mohamed</option>
+                        <option value="dr3">Ali</option>
+                        <option value="dr4">Sarah</option>
+                        <option value="dr5">Wael</option>
+                    </select>
+                    <br><br>
+                    <label for="credit-hours">Credit Hours:</label>  <br><br>
+                    <select>
+                    <option value="">-Select Credit Hours-</option>    
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    <br><br>
+                    <label for="note">Note:</label>  <br><br>
+                    
+                   <textarea class="fixed-textbox" placeholder="Type your note..."></textarea>
+                    <br><br>
+                   <button>Submit</button>
+                </form>
+            </div>
+         </div>   
+        </div>
+        <footer>
+             <p>Course Organizer, By Lana Ahmed</p>
+        </footer>  
+    </body>
+</html>
