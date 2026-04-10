@@ -269,10 +269,10 @@ form{
 }
 form input{
     width: 100%;
-    max-width: 400px;
+    max-width: 380px;
 }
 .contact-form textarea{
-    max-width:400px;
+    max-width:380px;
 }
 form input:focus{
     outline: none;
