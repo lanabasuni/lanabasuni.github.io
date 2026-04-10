@@ -219,6 +219,9 @@ button{
 button:hover{
     background-color: #4338CA;
 }
+.container-contact{
+    flex:1;
+}
 .container-contact h3{
     text-align: center;
     color: #312E81;
